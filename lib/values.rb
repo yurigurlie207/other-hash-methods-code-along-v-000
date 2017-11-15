@@ -10,12 +10,14 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here
-  valueList = []
-    groceries.each do |cat, food|
-      food.each do |item|
-        valueList << item
-      end
-    end
+  # valueList = []
+  #   groceries.each do |cat, food|
+  #     food.each do |item|
+  #       valueList << item
+  #     end
+  #   end
+  # 
+  #   return valueList
 
-    return valueList
+  groceries.values.flatten
 end
