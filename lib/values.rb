@@ -16,7 +16,7 @@ def get_the_values(groceries)
   #       valueList << item
   #     end
   #   end
-  # 
+  #
   #   return valueList
 
   groceries.values.flatten
