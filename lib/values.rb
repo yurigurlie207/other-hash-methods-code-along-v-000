@@ -14,4 +14,5 @@ def get_the_values(groceries)
       valueList << food
     end
 
+    return valueList
 end
