@@ -10,6 +10,7 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-    groceries.values
+    groceries.each do |cat, food|
+    end
 
 end
